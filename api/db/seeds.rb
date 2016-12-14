@@ -26,3 +26,10 @@ Rental.create(title: "Downtown Charm",
 						  rental_type: "Apartment",
 						  bedrooms: 3,
 						  image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg")
+
+Rental.create(title: "Uptown Charm",
+						  owner: "Purple Beauregarde",
+						  city: "Subotica",
+						  rental_type: "Apartment",
+						  bedrooms: 4,
+						  image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg")

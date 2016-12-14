@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :rentals
+  get '/api/rentals', to: "rentals#index"
   mount_ember_app :frontend, to: "/"
 end
